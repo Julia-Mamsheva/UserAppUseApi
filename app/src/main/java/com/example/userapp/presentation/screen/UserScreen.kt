@@ -1,6 +1,5 @@
 package com.example.userapp.presentation.screen
 
-
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -23,23 +22,27 @@ import com.example.userapp.presentation.viewmodel.UserViewModel
 // Принцип ISP: Интерфейсы разделены на мелкие специфические
 @Composable
 fun UserScreen(
-    viewModel: UserViewModel = hiltViewModel()
+    viewModel: UserViewModel = hiltViewModel() // Внедрение ViewModel через Hilt
 ) {
+    // Подписка на состояния ViewModel
     val users by viewModel.usersState
     val loading by viewModel.loadingState
     val error by viewModel.errorState
 
+    // Основной layout
     Column(
         modifier = Modifier
             .fillMaxSize()
             .padding(16.dp)
     ) {
+        // Заголовок
         Text(
             text = "Users",
             style = MaterialTheme.typography.headlineLarge,
             modifier = Modifier.padding(bottom = 16.dp)
         )
 
+        // Индикатор загрузки
         if (loading) {
             CircularProgressIndicator(
                 modifier = Modifier
@@ -48,6 +51,7 @@ fun UserScreen(
             )
         }
 
+        // Отображение ошибки
         error?.let { errorMessage ->
             ErrorMessage(
                 message = errorMessage,
@@ -56,14 +60,16 @@ fun UserScreen(
             )
         }
 
+        // Список пользователей
         LazyColumn {
             items(users) { user ->
-                Text(user.name)
+                Text(user.name) // Отображение имени пользователя
             }
         }
     }
 }
 
+// Отдельный компонент для отображения ошибки
 @Composable
 fun ErrorMessage(
     message: String,

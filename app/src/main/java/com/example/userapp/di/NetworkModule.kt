@@ -9,13 +9,14 @@ import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
 // Модуль для сетевых зависимостей
-@Module
-@InstallIn(SingletonComponent::class)
-object NetworkModule {
+@Module // Аннотация Dagger модуля
+@InstallIn(SingletonComponent::class) // Область видимости - singleton
+object NetworkModule { // Singleton объект
 
-    @Provides
-    @Singleton
-    fun provideUserApi(): UserApi {
-        return UserApiService.create()
+    // Провайдер для UserApi
+    @Provides // Метод предоставляет зависимость
+    @Singleton // Один экземпляр на всё приложение
+    fun provideUserApi(): UserApi { // Возвращает интерфейс UserApi
+        return UserApiService.create() // Делегирует создание сервису
     }
 }

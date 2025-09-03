@@ -8,24 +8,24 @@ import com.example.userapp.domain.repository.UserRepository
 import javax.inject.Inject
 
 // Принцип DIP: Реализация зависит от абстракции
-class UserRepositoryImpl @Inject constructor(
-    private val userApi: UserApi
-) : UserRepository {
+class UserRepositoryImpl @Inject constructor( // Внедрение зависимости через конструктор
+    private val userApi: UserApi // Зависимость от абстракции, а не конкретной реализации
+) : UserRepository { // Реализация абстрактного интерфейса
 
-    override suspend fun getUsers(): Result<List<User>> {
+    override suspend fun getUsers(): Result<List<User>> { // Возврат обёртки Result
         return try {
-            val usersDto = userApi.getUsers()
-            val users = UserMapper.toDomainList(usersDto)
-            Result.Success(users)
+            val usersDto = userApi.getUsers() // Вызов API (абстракция)
+            val users = UserMapper.toDomainList(usersDto) // Преобразование в доменную модель
+            Result.Success(users) // Возврат успешного результата
         } catch (e: Exception) {
-            Result.Failure(e)
+            Result.Failure(e) // Возврат ошибки в обёртке
         }
     }
 
     override suspend fun getUserById(id: Int): Result<User> {
         return try {
-            val userDto = userApi.getUserById(id)
-            val user = UserMapper.toDomain(userDto)
+            val userDto = userApi.getUserById(id) // Запрос конкретного пользователя
+            val user = UserMapper.toDomain(userDto) // Преобразование одного объекта
             Result.Success(user)
         } catch (e: Exception) {
             Result.Failure(e)

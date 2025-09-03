@@ -7,9 +7,10 @@ import javax.inject.Inject
 
 // Принцип SRP: Класс отвечает только за получение пользователей
 class GetUsersUseCase @Inject constructor(
-    private val userRepository: UserRepository
+    private val userRepository: UserRepository // Зависимость от репозитория
 ) {
+    // Operator function позволяет вызывать use case как функцию
     suspend operator fun invoke(): Result<List<User>> {
-        return userRepository.getUsers()
+        return userRepository.getUsers() // Делегирование вызова репозиторию
     }
 }

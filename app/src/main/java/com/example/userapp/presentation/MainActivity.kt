@@ -11,7 +11,7 @@ import com.example.userapp.presentation.ui.theme.UserAppUseApiTheme
 import com.example.userapp.presentation.screen.UserScreen
 import dagger.hilt.android.AndroidEntryPoint
 
-@AndroidEntryPoint
+@AndroidEntryPoint // Аннотация Hilt для Android-компонентов
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
