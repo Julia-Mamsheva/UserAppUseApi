@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:2:1-30:12
+ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:2:1-29:12
 MERGED from [androidx.hilt:hilt-navigation-compose:1.1.0] /Users/julia/.gradle/caches/8.13/transforms/f49f243ae3441feccf0a83d5d4e85ed6/transformed/hilt-navigation-compose-1.1.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.hilt:hilt-navigation:1.1.0] /Users/julia/.gradle/caches/8.13/transforms/5dfed7bb73044cd4c49375317c83d600/transformed/hilt-navigation-1.1.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.dagger:hilt-android:2.48.1] /Users/julia/.gradle/caches/8.13/transforms/895e1126964433ca95abaa31784ffedc/transformed/hilt-android-2.48.1/AndroidManifest.xml:16:1-19:12
@@ -95,8 +95,8 @@ ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/Android
 	android:name
 		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:6:5-28:19
-INJECTED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:6:5-28:19
+ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:5:5-27:19
+INJECTED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:5:5-27:19
 MERGED from [androidx.room:room-runtime:2.6.1] /Users/julia/.gradle/caches/8.13/transforms/48d20c6e0e31f49e9b8c4181e8fd0029/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.room:room-runtime:2.6.1] /Users/julia/.gradle/caches/8.13/transforms/48d20c6e0e31f49e9b8c4181e8fd0029/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] /Users/julia/.gradle/caches/8.13/transforms/e568da7238d47e2099a701bd59ad68f7/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
@@ -120,45 +120,45 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/julia/.gradle/caches
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] /Users/julia/.gradle/caches/8.13/transforms/64cf7428ca4370e27873162a0d5c5d87/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:11:9-41
 	android:fullBackupContent
-		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:10:9-54
+		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:9:9-54
 	android:roundIcon
-		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:13:9-54
+		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:12:9-54
 	tools:targetApi
-		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:16:9-29
+		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:15:9-29
 	android:icon
-		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:11:9-43
+		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:8:9-35
-	android:theme
-		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:15:9-51
-	android:dataExtractionRules
-		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:9:9-65
-	android:name
 		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:7:9-35
-activity#com.example.userapp.presentation.MainActivity
-ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:18:9-27:20
-	android:label
-		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:21:13-45
-	android:exported
-		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:20:13-36
 	android:theme
-		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:22:13-55
+		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:14:9-51
+	android:dataExtractionRules
+		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:8:9-65
 	android:name
-		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:19:13-54
+		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:6:9-35
+activity#com.example.userapp.presentation.MainActivity
+ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:17:9-26:20
+	android:label
+		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:20:13-45
+	android:exported
+		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:19:13-36
+	android:theme
+		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:21:13-55
+	android:name
+		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:18:13-54
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:23:13-26:29
+ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:22:13-25:29
 action#android.intent.action.MAIN
-ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:24:17-69
+ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:25:17-77
+ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:24:27-74
 uses-sdk
 INJECTED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml

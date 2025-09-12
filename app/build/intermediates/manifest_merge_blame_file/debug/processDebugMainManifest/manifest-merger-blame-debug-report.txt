@@ -19,53 +19,53 @@
 15        android:protectionLevel="signature" />
 15-->[androidx.core:core:1.13.1] /Users/julia/.gradle/caches/8.13/transforms/64cf7428ca4370e27873162a0d5c5d87/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 16
-17    <uses-permission android:name="com.example.userapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- android:name Указание кастомного Application класса -->
+17    <uses-permission android:name="com.example.userapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 17-->[androidx.core:core:1.13.1] /Users/julia/.gradle/caches/8.13/transforms/64cf7428ca4370e27873162a0d5c5d87/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 17-->[androidx.core:core:1.13.1] /Users/julia/.gradle/caches/8.13/transforms/64cf7428ca4370e27873162a0d5c5d87/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
-18    <application
-18-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:6:5-28:19
-19        android:name="com.example.userapp.di.UserApp"
-19-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:7:9-35
-20        android:allowBackup="true"
-20-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:8:9-35
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.13.1] /Users/julia/.gradle/caches/8.13/transforms/64cf7428ca4370e27873162a0d5c5d87/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
-22        android:dataExtractionRules="@xml/data_extraction_rules"
-22-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:9:9-65
-23        android:debuggable="true"
-24        android:extractNativeLibs="false"
-25        android:fullBackupContent="@xml/backup_rules"
-25-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:10:9-54
-26        android:icon="@mipmap/ic_launcher"
-26-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:11:9-43
-27        android:label="@string/app_name"
-27-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:12:9-41
-28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:13:9-54
-29        android:supportsRtl="true"
-29-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:14:9-35
-30        android:testOnly="true"
+18
+19    <application
+19-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:5:5-27:19
+20        android:name="com.example.userapp.di.UserApp"
+20-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:6:9-35
+21        android:allowBackup="true"
+21-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:7:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.13.1] /Users/julia/.gradle/caches/8.13/transforms/64cf7428ca4370e27873162a0d5c5d87/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:8:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:9:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:10:9-43
+28        android:label="@string/app_name"
+28-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:11:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:12:9-54
+30        android:supportsRtl="true"
+30-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:13:9-35
 31        android:theme="@style/Theme.UserAppUseApi" >
-31-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:15:9-51
+31-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:14:9-51
 32        <activity
-32-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:18:9-27:20
+32-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:17:9-26:20
 33            android:name="com.example.userapp.presentation.MainActivity"
-33-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:19:13-54
+33-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:18:13-54
 34            android:exported="true"
-34-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:20:13-36
+34-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:19:13-36
 35            android:label="@string/app_name"
-35-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:21:13-45
+35-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:20:13-45
 36            android:theme="@style/Theme.UserAppUseApi" >
-36-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:22:13-55
+36-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:21:13-55
 37            <intent-filter>
-37-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:23:13-26:29
+37-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:22:13-25:29
 38                <action android:name="android.intent.action.MAIN" />
-38-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:24:17-69
-38-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:24:25-66
+38-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:23:17-69
+38-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:23:25-66
 39
 40                <category android:name="android.intent.category.LAUNCHER" />
-40-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:25:17-77
-40-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:25:27-74
+40-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:24:17-77
+40-->/Users/julia/AndroidStudioProjects/UserAppUseApi/app/src/main/AndroidManifest.xml:24:27-74
 41            </intent-filter>
 42        </activity>
 43

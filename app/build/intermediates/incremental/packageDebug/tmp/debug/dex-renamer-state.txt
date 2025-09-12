@@ -1,4 +1,4 @@
-#Thu Sep 04 14:44:23 MSK 2025
+#Fri Sep 12 12:05:31 MSK 2025
 base.0=/Users/julia/AndroidStudioProjects/UserAppUseApi/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/julia/AndroidStudioProjects/UserAppUseApi/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.10=/Users/julia/AndroidStudioProjects/UserAppUseApi/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
